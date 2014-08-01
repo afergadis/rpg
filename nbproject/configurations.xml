@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <logicalFolder name="f1"
+                     displayName="Items"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>Armor.h</itemPath>
+        <itemPath>Item.h</itemPath>
+        <itemPath>Potion.h</itemPath>
+        <itemPath>Weapon.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="Living"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>Group.h</itemPath>
+        <itemPath>Hero.h</itemPath>
+        <itemPath>Living.h</itemPath>
+        <itemPath>Monster.h</itemPath>
+      </logicalFolder>
+      <itemPath>Grid.h</itemPath>
+      <itemPath>Inventory.h</itemPath>
+      <itemPath>Market.h</itemPath>
+      <itemPath>Spell.h</itemPath>
+      <itemPath>Tile.h</itemPath>
+      <itemPath>main.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <itemPath>OOPproj_2010.pdf</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true"
+                   kind="SOURCE_LOGICAL_FOLDER">
+      <logicalFolder name="f3"
+                     displayName="Handlers"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>Battle.cpp</itemPath>
+        <itemPath>EnterMarket.cpp</itemPath>
+        <itemPath>Equip.cpp</itemPath>
+        <itemPath>Library.cpp</itemPath>
+        <itemPath>SelectGroupMember.cpp</itemPath>
+        <itemPath>Unequip.cpp</itemPath>
+        <itemPath>UsePotion.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1"
+                     displayName="Items"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>Armor.cpp</itemPath>
+        <itemPath>Item.cpp</itemPath>
+        <itemPath>Potion.cpp</itemPath>
+        <itemPath>Weapon.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2"
+                     displayName="Living"
+                     projectFiles="true"
+                     kind="SOURCE_LOGICAL_FOLDER">
+        <itemPath>Group.cpp</itemPath>
+        <itemPath>Hero.cpp</itemPath>
+        <itemPath>Living.cpp</itemPath>
+        <itemPath>Monster.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>Grid.cpp</itemPath>
+      <itemPath>Inventory.cpp</itemPath>
+      <itemPath>Market.cpp</itemPath>
+      <itemPath>Spell.cpp</itemPath>
+      <itemPath>Tile.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+      </compileType>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>
